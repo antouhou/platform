@@ -4,7 +4,6 @@
   "description": "The JavaScript implementation of the Dash Platform Protocol",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run test:coverage && npm run test:browsers",
     "build": "webpack --display-error-details",
     "test:node": "NODE_ENV=test mocha",
     "test:browsers": "karma start ./karma.conf.js --single-run",
