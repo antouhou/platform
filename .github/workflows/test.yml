@@ -41,7 +41,7 @@ jobs:
         run: packster check --all --error
 
       - name: Run ESLinter
-        run: npm run lint -w ${{ inputs.package }}
+        run: npm run lint --workspaces --if-present
 
       - name: Get list of packages to test
         id: packster
