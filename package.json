@@ -36,5 +36,8 @@
     "packages/js-drive",
     "packages/dashmate",
     "packages/platform-test-suite"
-  ]
+  ],
+  "dependencies": {
+    "packster": "^0.2.0"
+  }
 }
