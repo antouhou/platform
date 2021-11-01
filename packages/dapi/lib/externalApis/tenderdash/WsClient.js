@@ -112,6 +112,7 @@ class WsClient extends EventEmitter {
     this.connectionRetries = 0;
     this.subscribedQueries.clear();
 
+    // eslint-disable-next-line no-async-promise-executor
     return new Promise(async (resolve, reject) => {
       // If a max number of retries is set, we reject when exceeding retry number
       if (this.maxRetries !== -1) {
