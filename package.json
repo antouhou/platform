@@ -1,5 +1,5 @@
 {
-  "name": "dash-platform",
+  "name": "js-dash-platform",
   "private": true,
   "scripts": {
     "setup": "npm ci && npm run build && npm run clean:data && npm run configure && npm run stop",
