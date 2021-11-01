@@ -16,7 +16,7 @@ const {
       Response,
     },
   },
-} = require('../types.js');
+} = require('../types');
 
 class Connection extends EventEmitter {
   /**
