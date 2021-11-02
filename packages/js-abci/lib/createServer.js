@@ -1,6 +1,6 @@
 const net = require('net');
 
-const Connection = require('./Connection.js');
+const Connection = require('./Connection');
 
 const handleRequestFactory = require('./handleRequestFactory');
 

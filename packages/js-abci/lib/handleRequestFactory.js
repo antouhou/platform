@@ -7,7 +7,7 @@ const {
       ResponseException,
     },
   },
-} = require('../types.js');
+} = require('../types');
 
 const ResponseExceptionError = require('./errors/ResponseExceptionError');
 const InvalidAbciResponseError = require('./errors/InvalidAbciResponseError');
